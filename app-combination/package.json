@@ -1,0 +1,57 @@
+{
+  "name": "app-combination",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-vertex/core": "3.0.0",
+    "@react-vertex/dom-hooks": "1.11.0",
+    "@react-vertex/geometry-hooks": "3.0.0",
+    "@react-vertex/material-hooks": "3.0.0",
+    "@react-vertex/math-hooks": "2.0.0",
+    "@react-vertex/orbit-camera": "3.0.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@vx/gradient": "0.0.192",
+    "@vx/group": "0.0.190",
+    "@vx/hierarchy": "0.0.179",
+    "@vx/shape": "0.0.179",
+    "classnames": "2.2.6",
+    "d3-hierarchy": "1.1.9",
+    "d3-timer": "1.0.9",
+    "history": "^5.1.0",
+    "prop-types": "15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-move": "2.8.0",
+    "react-router-dom": "5.0",
+    "react-scripts": "^2.1.8",
+    "reactstrap": "^9.0.1",
+    "typescript": "^4.5.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
